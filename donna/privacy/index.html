@@ -29,17 +29,18 @@
     <li><strong>Google account:</strong> the email address of each account signed in.</li>
     <li><strong>Gmail:</strong> messages and labels, to read, organize, draft and, after approval, send email.</li>
     <li><strong>Google Drive:</strong> read-only access to files.</li>
+    <li><strong>Google Calendar:</strong> the list of calendars and their events, to read them and to add events that have no other attendees.</li>
   </ul>
 
   <h2>How it is used</h2>
-  <p>Donna uses this data only to answer requests made in the app and to carry out actions that are approved there. Each data source is off until it is turned on.</p>
+  <p>Donna uses this data only to answer requests made in the app and to carry out actions requested there. Email is sent only after approval in the app. Each data source is off until it is turned on.</p>
 
   <h2>Where it is stored</h2>
   <p>Donna has no server and no database of its own. Google sign-in tokens are kept in the iPhone Keychain. Notes saved in the app are stored on the iPhone and synced through iCloud.</p>
 
   <h2>Who it is shared with</h2>
   <ul>
-    <li><strong>Anthropic:</strong> when a request needs it, the relevant text, including email or file content, is sent to the Claude API to produce a reply.</li>
+    <li><strong>Anthropic:</strong> when a request needs it, the relevant text, including email, file or calendar content, is sent to the Claude API to produce a reply.</li>
     <li><strong>Google:</strong> if the Google voice is turned on, the text of Donna's spoken replies is sent to Google Cloud Text-to-Speech.</li>
     <li><strong>Apple:</strong> notes saved in the app sync through iCloud.</li>
   </ul>
